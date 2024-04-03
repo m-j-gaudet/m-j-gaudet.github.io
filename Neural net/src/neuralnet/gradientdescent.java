@@ -17,6 +17,7 @@ public class gradientdescent {
 
 	    return NN.out[src]*(1-NN.out[src]);
 	}
+	//Performs a gradient descent epoch
 	public static void GradientDescent(double expected, neuralnet.NN nN2, double[] input) {
 		NN=nN2;
 		int length=(NN.Nnodes-NN.inN-NN.outN)/NN.width;
@@ -36,9 +37,10 @@ public class gradientdescent {
 		for(int i=0;i<NN.Nnodes;i++)
 		sigdif[i]=sigdiff(i);
 		int k=0;
+		//error is currently set at 10^-7 and at most 100 epochs.
 		while(error1>Math.pow(10, -7)|| k<100) {
 			for(int i=NN.Nnodes-1; i>=0;i--) {
-				for(int j=NN.Nnodes-1; i>=0;i--) {
+				for(int j=NN.Nnodes-1; j>=0;j--) {
 					if(NN.N[i][j]) {
 						NN.adj[i][j]=temp[i][j]+step*sigdif[j]*NN.out[i]*errder(expected);
 						//System.out.println("Change(i,j):  "+NN.adj[i][j]+"("+i+","+j+")");
