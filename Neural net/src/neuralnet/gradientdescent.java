@@ -58,6 +58,8 @@ public class gradientdescent {
 		//System.out.println("Output:  "+NN.output());
 		
 	}
+	
+	//TODO: Multiple outputs
 /*	public static void GradientDescent(double[] expected, neuralnet.NN nN2, double[] input) {
 		NN=nN2;
 		double[] error1= error(expected);

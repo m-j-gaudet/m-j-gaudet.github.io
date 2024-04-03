@@ -13,6 +13,7 @@ public class NN {
 	public static double[] out;
 	public static double[] in;
 	public static boolean[][] N;
+	//Defines the NN object as a graph and considers parameters such as is it weighted or directed
 	public  NN(int Nnodes, boolean weighted, boolean directed, int width, int inN, int outN) {
 	    this.directed = directed;
 	    this.outN=outN;
@@ -27,6 +28,8 @@ public class NN {
 		Arrays.fill(in, 0);
 		N= new boolean[Nnodes+inN+outN] [Nnodes+inN+outN];
 	}
+	
+	//Adds edge to adjacency matrix
 	public void addEdge(int source, int destination) {
 
 	    int valueToAdd = 1;
@@ -43,6 +46,8 @@ public class NN {
 	        N[destination][source] = true;
 	    }
 	}
+	
+	//given input vector calculates output vector
 	public void calculate(double[] input) {
 		Arrays.fill(in, 0);
 		Arrays.fill(out, 0);
@@ -53,7 +58,6 @@ public class NN {
 							in[k]=in[k]+inCalc(i,k+inN);
 
 							out[k]=outCalc(k);
-							//System.out.println( "Node output "+k+":"+in[k]);
 			}
 
 
@@ -75,6 +79,7 @@ public class NN {
 			}	
 
 	}
+	
 	public double inCalc(int source, int destination) {
 	    double valueToAdd = adj[source][destination]*out[source];
 
@@ -85,14 +90,14 @@ public class NN {
 
 	}
 	public double sigdiff(int source) {
-		//activation+ function
+		//activation function derivative, probably don't use this, use methods in gradientdescent
 			    double valueToAdd = outCalc(source)*(1-outCalc(source));
 
 
 			    return valueToAdd;
 			}
 	public double[] sigdiffvec(double[] input) {
-		//activation+ function
+		//activation function derivative as a vector, probably don't use this, use methods in gradientdescent
 			    double[] valueToAdd =new double[input.length];
 			    for(int i = 1; i<input.length; i++) 
 			    		valueToAdd[i]=1/(1+Math.exp(input[i]))*(1-1/(1+Math.exp(input[i])));
@@ -101,7 +106,7 @@ public class NN {
 			    return valueToAdd;
 			}
 	public double outCalc(int source) {
-//activation+ function
+//activation function
 	    double valueToAdd = 1/(1+Math.exp(-in[source]));
 
 
