@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body onload="Sobolev()">
+
+<p>A calculator to check if a function with certain Sobolev integrability is contained in another space:</p>
+
+<label for="integinput">Input integrability:</label> 
+<input type="number" oninput="Sobolev()"  id="integinput" name="integinput" min="1" value="1" step="any">
+
+<label for="smoothinput">Input Smoothness:</label> 
+<input type="number" oninput="Sobolev()"  id="smoothinput" name="smoothinput" min="0" value="1" step="1">
+
+<label for="Dim">Dimension of the Domain:</label> 
+<input type="number" oninput="Sobolev()" id="Dim" name="Dim" min="1" value="5" step="1">
+<br>
+<label for="Hlder">Would you like to check if the function is Hölder continuous?:</label> 
+<input type="checkbox" id="Hlder" onclick="Sobolev()">
+<label for="crit">Would you like to see the critical exponent?:</label> 
+<input type="checkbox" id="crit" onclick="Sobolev()">
+<label for="bnded">Is the domain bounded?:</label> 
+<input type="checkbox" id="bnded" onclick="Sobolev()">
+<br>
+<label for="integout">Out integrability:</label> 
+<input type="number" oninput="Sobolev()"  id="integout" name="integout" min="1" value="6" step="any">
+
+<label for="smoothout">Out Smoothness:</label> 
+<input type="number" oninput="Sobolev()"  id="smoothout" name="smoothout" min="0" value="0" step="1">
+<p id="t" style="display:none">True</p>
+<p id="f" style="display:none">False</p>
+<p id="errorr" style="display:none">Error</p>
+<p id="critt" style="display:none"> Critical exponent is <output id="outcrit"> </output></p>
+
+<script type="text/javascript" src="SobCal.js"></script>
+
+</body>
+</html>
