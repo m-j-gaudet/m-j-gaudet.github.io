@@ -1,4 +1,7 @@
 body {
-    background: rgb(10,0,0);
-    background: radial-gradient(circle, rgba(10,0,0,1) 4%, rgba(52,61,94,0.927608543417367) 11%, rgba(77,108,157,0.8491771708683473) 15%, rgba(75,117,160,0.8939950980392157) 22%);
+background-color: #e5e5f7;
+opacity: 1;
+background-image:  linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777);
+background-size: 20px 35px;
+background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
 }
