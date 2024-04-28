@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:
+
+Sitemap: https://www.mitchelljgaudet.com/sitemap.xml
