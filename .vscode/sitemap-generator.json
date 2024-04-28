@@ -1,7 +1,7 @@
 {
   "sitemap.xml": {
     "Protocol": "https",
-    "DomainName": "www.mitchelljgaudet.com",
+    "DomainName": "mitchelljgaudet.com",
     "Root": "./",
     "IncludeExt": [
       ".html",
