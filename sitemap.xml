@@ -6,11 +6,6 @@
 		<lastmod>2024-04-28</lastmod>
 	</url>
 	<url>
-		<loc>https://www.mitchelljgaudet.com/Notes/Quasilinear</loc>
-		<priority>0.67</priority>
-		<lastmod>2024-04-28</lastmod>
-	</url>
-	<url>
 		<loc>https://www.mitchelljgaudet.com/Programming</loc>
 		<priority>0.67</priority>
 		<lastmod>2024-04-28</lastmod>
@@ -22,11 +17,6 @@
 	</url>
 	<url>
 		<loc>https://www.mitchelljgaudet.com/Notes</loc>
-		<priority>0.67</priority>
-		<lastmod>2024-04-28</lastmod>
-	</url>
-	<url>
-		<loc>https://www.mitchelljgaudet.com/Notes/MaxIdeals</loc>
 		<priority>0.67</priority>
 		<lastmod>2024-04-28</lastmod>
 	</url>
@@ -52,6 +42,16 @@
 	</url>
 	<url>
 		<loc>https://www.mitchelljgaudet.com/Webapps/SobWeb</loc>
+		<priority>0.33</priority>
+		<lastmod>2024-04-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.mitchelljgaudet.com/Notes/Quasilinear</loc>
+		<priority>0.33</priority>
+		<lastmod>2024-04-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.mitchelljgaudet.com/Notes/MaxIdeals</loc>
 		<priority>0.33</priority>
 		<lastmod>2024-04-28</lastmod>
 	</url>
