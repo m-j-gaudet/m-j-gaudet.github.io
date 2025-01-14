@@ -3,66 +3,81 @@
 	<url>
 		<loc>https://www.mitchelljgaudet.com</loc>
 		<priority>1.00</priority>
-		<lastmod>2024-11-27</lastmod>
-	</url>
-	<url>
-		<loc>https://www.mitchelljgaudet.com/ProblemsetsHodge.html</loc>
-		<priority>0.67</priority>
 		<lastmod>2025-01-11</lastmod>
-	</url>
-	<url>
-		<loc>https://www.mitchelljgaudet.com/Programming.html</loc>
-		<priority>0.67</priority>
-		<lastmod>2024-11-19</lastmod>
-	</url>
-	<url>
-		<loc>https://www.mitchelljgaudet.com/Presentations.html</loc>
-		<priority>0.67</priority>
-		<lastmod>2024-11-20</lastmod>
-	</url>
-	<url>
-		<loc>https://www.mitchelljgaudet.com/Notes.html</loc>
-		<priority>0.67</priority>
-		<lastmod>2025-01-14</lastmod>
-	</url>
-	<url>
-		<loc>https://www.mitchelljgaudet.com/Math.html</loc>
-		<priority>0.67</priority>
-		<lastmod>2024-11-25</lastmod>
-	</url>
-	<url>
-		<loc>https://www.mitchelljgaudet.com/MainWeb.html</loc>
-		<priority>0.67</priority>
-		<lastmod>2024-10-09</lastmod>
-	</url>
-	<url>
-		<loc>https://www.mitchelljgaudet.com/Isoperimetric.html</loc>
-		<priority>0.67</priority>
-		<lastmod>2024-11-26</lastmod>
-	</url>
-	<url>
-		<loc>https://www.mitchelljgaudet.com/Aboutme.html</loc>
-		<priority>0.67</priority>
-		<lastmod>2024-11-28</lastmod>
 	</url>
 	<url>
 		<loc>https://www.mitchelljgaudet.com/404.html</loc>
 		<priority>0.67</priority>
-		<lastmod>2024-11-13</lastmod>
+		<lastmod>2025-01-11</lastmod>
 	</url>
 	<url>
-		<loc>https://www.mitchelljgaudet.com/Webapps/SobWeb.html</loc>
-		<priority>0.33</priority>
-		<lastmod>2024-12-03</lastmod>
+		<loc>https://www.mitchelljgaudet.com/Aboutme.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-01-11</lastmod>
 	</url>
 	<url>
-		<loc>https://www.mitchelljgaudet.com/Notes/Quasilinear.html</loc>
-		<priority>0.33</priority>
-		<lastmod>2024-12-01</lastmod>
+		<loc>https://www.mitchelljgaudet.com/HodgeTheory.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-01-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.mitchelljgaudet.com/Isoperimetric.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-01-11</lastmod>
+	</url>
+	<url>
+		<loc>https://www.mitchelljgaudet.com/Lecture1.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-01-11</lastmod>
+	</url>
+	<url>
+		<loc>https://www.mitchelljgaudet.com/LectureNotes.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-01-13</lastmod>
+	</url>
+	<url>
+		<loc>https://www.mitchelljgaudet.com/MainWeb.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2024-11-25</lastmod>
+	</url>
+	<url>
+		<loc>https://www.mitchelljgaudet.com/Math.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-01-11</lastmod>
+	</url>
+	<url>
+		<loc>https://www.mitchelljgaudet.com/Notes.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-01-11</lastmod>
+	</url>
+	<url>
+		<loc>https://www.mitchelljgaudet.com/Presentations.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-01-11</lastmod>
+	</url>
+	<url>
+		<loc>https://www.mitchelljgaudet.com/ProblemsetsHodge.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-01-12</lastmod>
+	</url>
+	<url>
+		<loc>https://www.mitchelljgaudet.com/Programming.html</loc>
+		<priority>0.67</priority>
+		<lastmod>2025-01-11</lastmod>
 	</url>
 	<url>
 		<loc>https://www.mitchelljgaudet.com/Notes/MaxIdeals.html</loc>
 		<priority>0.33</priority>
-		<lastmod>2024-11-08</lastmod>
+		<lastmod>2025-01-11</lastmod>
+	</url>
+	<url>
+		<loc>https://www.mitchelljgaudet.com/Notes/Quasilinear.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2025-01-11</lastmod>
+	</url>
+	<url>
+		<loc>https://www.mitchelljgaudet.com/Webapps/SobWeb.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2025-01-11</lastmod>
 	</url>
 </urlset>
